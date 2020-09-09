@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Django Tutorial</title>
+</head>
+<body>
+	<div>
+		<h1><a href="/">Django Girls Tutorial Blog</a></h1>
+	</div>
+	{% for publicacion in publicaciones %}
+		<div>
+			<p>Publicado: {{ publicacion.fecha_publicacion }}</p>
+			<h2><a href="">{{ publicacion.titulo }}</a></h2>
+			<p>{{ publicacion.texto|linebreaksbr }}</p>
+		</div>
+	{% endfor %}
+
+</body>
+</html>
