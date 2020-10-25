@@ -1,12 +1,13 @@
 h1 a, h2 a {
-    color: #FCA205;
-    font-family: 'Lobster';
+    color: #05b6fc;
+    font-family: 'Trispace';
 }
 body {
     padding-left: 15px;
+    background-color: #828282;
 }
 .page-header {
-    background-color: #C25100;
+    background-color: #005bc2;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -22,7 +23,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Trispace', cursive;
 }
 
 .date {
@@ -38,7 +39,7 @@ h1, h2, h3, h4 {
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-    color: #ffffff;
+    color: #f5ef9b;
     float: right;
     font-size: 26pt;
     margin-right: 20px;
